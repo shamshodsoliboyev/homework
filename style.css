@@ -1,0 +1,94 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%; 
+  }
+  
+
+  .header {
+    height: 100px;
+    position: fixed;
+    z-index: 10; 
+    margin-bottom: 100px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100vw;
+  }
+  
+  .nav-head {
+    font-size: 24px;
+    color: white;
+    font-family: "Poppins";
+  }
+  
+  .ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-family: "Poppins";
+    row-gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  li{
+    transition: .6s;
+  }
+  li:hover{
+    border-bottom: 2px solid black;
+  }
+  
+
+  body {
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100px; 
+    position: relative;
+  }
+  .sunnyside{
+    display: flex;
+    font-size: 48px;
+    color: white;
+    font-family: "Poppins";
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .content{
+    margin-top: 0px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 4px;
+    transition: .6s;
+    align-items: center;
+  }
+  .content:hover{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .scroll-icon{
+      display: flex;
+      margin: auto;
+      margin-top: 100px;
+  }
